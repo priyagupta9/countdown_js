@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(210, 36%, 96%);
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 2rem;
+}
+.pic {
+  width: 561px;
+  height: 355px;
+  object-fit: cover;
+}
+.gift-info {
+  width: 38rem;
+  padding-left: 3rem;
+}
+.gift-info h3 {
+  color: hsl(205, 72%, 37%);
+  font-size: 1.7rem;
+  font-weight: bolder;
+  margin-bottom: 0.3rem;
+  letter-spacing: 3px;
+}
+.gift-info h4 {
+  letter-spacing: 4px;
+}
+.gift-info p {
+  letter-spacing: normal;
+  color: hsl(209, 23%, 60%);
+  margin: 2rem 0rem;
+}
+/* color:hsl(210, 22%, 49%); */
+/* font-size: 0.85rem; */
+.deadline span {
+  text-transform: uppercase;
+}
+.countdown {
+  display: flex;
+}
+.deadline {
+  background: hsl(209, 61%, 16%);
+  color: #fff;
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.deadline h4 {
+  font-size: 1.9rem;
+}
+.deadline span {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}

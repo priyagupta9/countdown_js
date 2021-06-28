@@ -1,0 +1,22 @@
+@media screen and (max-width: 1050px) {
+  .container {
+    flex-direction: column;
+  }
+  .gift-info {
+    margin-top: 2rem;
+    padding-left: 2rem;
+  }
+}
+@media screen and (max-width: 620px) {
+  .container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .gift-info {
+    width: 80vw;
+    padding-left: 0;
+  }
+  .pic {
+    width: 80vw;
+  }
+}
